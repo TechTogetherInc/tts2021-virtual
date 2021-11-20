@@ -244,6 +244,7 @@ a:hover {
   color: white;
   padding: 10px 20px;
   margin: 1% 0.5%;
+  border-radius: 4px;
 }
 
 .buttonc {
@@ -763,7 +764,7 @@ a:hover {
 
 .event {
   max-width: 100%;
-  padding: 10px !important ; 
+  padding: 10px !important ;
   margin: 30px auto;
   background-color: #fff;
   /* box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1); */
