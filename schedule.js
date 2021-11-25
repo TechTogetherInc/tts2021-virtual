@@ -12,7 +12,7 @@ const day1 = [
 		/*"Category": "Activity",*/
 		"Title": "Team Formation 1",
 		"Host": "TT Seattle Team",
-		"Description": "Hi",
+		"Description": "Hi there, habsdfhsbaf",
 	},
 ]
 
@@ -22,7 +22,7 @@ const day2 = [
 		/*"Category": "Universal",*/
 		"Title": "Career Fair",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Hello",
 		
 	},
 	{
@@ -365,6 +365,7 @@ function fillData(data){
     `
 }
 
+
 function sched_template(day_data){
     return `
     <div class="event">
@@ -378,12 +379,12 @@ function sched_template(day_data){
 
 		<span>
 			<!-- Button trigger modal -->
-			<button type="button" class="btn buttone" data-toggle="modal" data-target="#description">
+			<button type="button" class="btn buttone" data-toggle="modal" data-target="#description-${count}">
   				View description
 			</button>
 		
 			<!-- Modal -->
-			<div class="modal fade" id="description" tabindex="-1" role="dialog" aria-labelledby="description" aria-hidden="true">
+			<div class="modal fade" id="description-${count}" tabindex="-1" role="dialog" aria-labelledby="description" aria-hidden="true">
   				<div class="modal-dialog" role="document">
    					<div class="modal-content">
      					<div class="modal-header">
@@ -392,8 +393,10 @@ function sched_template(day_data){
           					<span aria-hidden="true">&times;</span>
         					</button>
       					</div>
-      					<span class="modal-body">
-							<p>"${day_data.Description}"</p>
+      					<span class="modal-body">	
+						  <p>"
+						  ${day_data.Description}"
+						  </p>
       					</span>
       					<div class="modal-footer">
         					<button type="button" class="btn buttone" data-dismiss="modal">Close</button>
