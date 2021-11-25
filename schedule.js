@@ -12,7 +12,7 @@ const day1 = [
 		/*"Category": "Activity",*/
 		"Title": "Team Formation 1",
 		"Host": "TT Seattle Team",
-		"Description": "Test",
+		"Description": "Meet like-minded people and form teams for the hackathon here!",
 	},
 ]
 
@@ -22,7 +22,7 @@ const day2 = [
 		/*"Category": "Universal",*/
 		"Title": "Career Fair",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Meet our Sponsors and find direct opportunities to hear about their openings.",
 		
 	},
 	{
@@ -30,7 +30,7 @@ const day2 = [
 		/*"Category": "Universal",*/
 		"Title": "Opening Ceremony",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Join us as we kick-off TechTogether Seattle!",
 		
 	},
 	{
@@ -38,7 +38,7 @@ const day2 = [
 		/*"Category": "Activity",*/
 		"Title": "Team Formation 2",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Meet like-minded people and form teams for the hackathon here!",
 	
 	},
 	{
@@ -220,7 +220,7 @@ const day3 = [
 		/*"Category": "Universal",*/
 		"Title": "Career Fair",
 		"Host": "TBA",
-		"Description": "",
+		"Description": "Meet our Sponsors and find direct opportunities to hear about their openings.",
 		
 	},
 	{
@@ -363,6 +363,11 @@ const day4 = [
 	},
 ]
 
+var uniqId = (function(){
+    var i=0;
+    return function() { return i++; }
+})();
+
 document.getElementById('1').onclick = () => {fillData(day1)}
 document.getElementById('2').onclick = () => {fillData(day2)}
 document.getElementById('3').onclick = () => {fillData(day3)}
@@ -388,7 +393,10 @@ function fillData(data){
 }
 
 function sched_template(day_data){
-    return `
+
+	currId = uniqId();
+
+	return `
     <div class="event">
         <h4 class="fs-4" style="color:#1D539F">
             <span style="font-weight: semi-bold;"> 
@@ -397,52 +405,35 @@ function sched_template(day_data){
 			<br>
             <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
     	</h4>
-	</div>
-    `
+	
+		<span>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn buttone" data-toggle="modal" data-target="#workshop-${currId}">
+                View description
+            </button>
+        
+            <!-- Modal -->
+            <div class="modal fade" id="workshop-${currId}" tabindex="-1" role="dialog" aria-labelledby="workshop-${currId}" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="workshop-${currId}">Workshop Description</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <span class="modal-body">
+                            <p>${day_data.Description}</p>
+                        </span>
+                        <div class="modal-footer">
+                            <button type="button" class="btn buttone" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	    </span>
+	</div>`
 }
-
-
-/* function sched_template(day_data){
-    return `
-    <div class="event">
-        <h4 class="fs-4" style="color:#1D539F">
-            <span style="font-weight: semi-bold;"> 
-				${day_data.Link ? `<a href=${day_data.Link}> ${day_data.Title} </a>` : `${day_data.Title}` }</span>
-            <span class="black space5" style="font-weight: bold; float:right">${day_data.Time}</span> 
-			<br>
-            <span class="fs-6" style="color: #888"> Hosted by ${day_data.Host} </span>
-    	</h4>
-
-/*		<span>
-			<!-- Button trigger modal -->
-			<button type="button" class="btn buttone" data-toggle="modal" data-target="#description">
-  				View description
-			</button>
-		
-			<!-- Modal -->
-			<div class="modal fade" id="description" tabindex="-1" role="dialog" aria-labelledby="description" aria-hidden="true">
-  				<div class="modal-dialog" role="document">
-   					<div class="modal-content">
-     					<div class="modal-header">
-        					<h5 class="modal-title" id="description">Workshop Description</h5>
-        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          					<span aria-hidden="true">&times;</span>
-        					</button>
-      					</div>
-      					<span class="modal-body">
-							<p>"${day_data.Description}"</p>
-      					</span>
-      					<div class="modal-footer">
-        					<button type="button" class="btn buttone" data-dismiss="modal">Close</button>
-      					</div>
-    				</div>
-  				</div>
-			</div>
-		</span>
-    </div>
-    `
-}
-*/
 
 {/* 
 <span id="category" class="circle">${day_data.Category.charAt(0)}</span>
