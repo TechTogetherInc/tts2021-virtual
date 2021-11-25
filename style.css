@@ -218,6 +218,10 @@ a:hover {
 }
 
 /*buttons*/
+
+[type="button"], [type="reset"], [type="submit"], button {
+  -webkit-appearance: none;
+}
 .buttona {
   background-color: #fc7361;
   border: none;
