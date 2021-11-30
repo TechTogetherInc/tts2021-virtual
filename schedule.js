@@ -118,7 +118,7 @@ const day2 = [
 const day3 = [
 	{
 		
-		"Time": "8:30 - 8:30 AM",
+		"Time": "8:00 - 8:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Python",
 		"Host": "Gabriella Miesner (TechTogether Chicago)",

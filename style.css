@@ -855,6 +855,10 @@ a:hover {
 
 /* National Sponsor */
 
+.hidden{
+  visibility: hidden;
+}
+
 .national-sponsor {
   padding-top: 1em;
   padding-left: 0em;
@@ -865,7 +869,8 @@ a:hover {
 .card-12,
 .card-13,
 .card-14,
-.card-15 {
+.card-15,
+.card-16 {
   padding-bottom: 6.5em;
   /*padding-left: 1.5em;
   padding-right: 4.5em;*/
@@ -883,7 +888,8 @@ a:hover {
   .card-12,
   .card-13,
   .card-14,
-  .card-15 {
+  .card-15,
+  .card-16 {
     width: 15rem;
     margin-left: 10mm;
   }
@@ -899,7 +905,8 @@ a:hover {
   .card-12,
   .card-13,
   .card-14,
-  .card-15 {
+  .card-15,
+  .card-16 {
     width: 15rem;
     margin-left: 15mm;
   }
@@ -915,7 +922,8 @@ a:hover {
   .card-12,
   .card-13,
   .card-14,
-  .card-15 {
+  .card-15,
+  .card-16 {
     width: 15rem;
     margin-left: 10mm;
   }
@@ -933,7 +941,8 @@ a:hover {
   .card-img-co,
   .card-img-bu,
   .card-img-sp,
-  .card-img-rb {
+  .card-img-rb,
+  .card-img-cx {
     margin-right: 15%;
   }
 }
