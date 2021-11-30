@@ -339,12 +339,20 @@ const day4 = [
 
 	},
 	{
-		"Time": "12:00 - 12:30 AM",
+		"Time": "11:30 - 12:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Resume-Building & LinkedIn for HS Students",
 		"Host": "Stephanie Su (Superposition)",
 		"Description": "The goal of the workshop is to kickstart high school students' career development by developing a resume and a LinkedIn. I'll cover the basic components of each, and review some audience members' profiles at the end.",
 
+	},
+	{
+		"Time": "12:00 PM",
+		/*"Category": "Universal",*/
+		"Title": "Hackathon Ends",
+		"Host": "TT Seattle Team",
+		"Description": "Hacking deadline!",
+		
 	},
 	{
 		"Time": "12:30 - 1:00 PM",
@@ -359,6 +367,14 @@ const day4 = [
 		"Title": "Exploring opportunities and Leveraging the Power of Opensource",
 		"Host": "Joshua Poddoku (Aviyel)",
 		"Description": "The world we live in is only possible because of forgotten and unleashing power of Opensource. There are code and non-code contributions to scale projects. This session will be focused for enthusiasts to learn and explore opportunities under this space.",
+
+	},
+	{
+		"Time": "6:30 - 7:00 PM",
+		/*"Category": "Workshop",*/
+		"Title": "Closing Ceremony",
+		"Host": "TT Seattle Team",
+		"Description": "Join us as wrap-up TechTogether Seattle!",
 		
 	},
 ]
