@@ -99,6 +99,17 @@ a:hover {
   color: #e26554;
 }
 
+.links2 {
+  color: #d4d4d4;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.links2:hover {
+  color: #e26554;
+}
+
 /* Epilogue Semi-Bold */
 
 .epilogue {
