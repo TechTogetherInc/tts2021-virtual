@@ -71,7 +71,7 @@ const day2 = [
 		"Time": "8:00 - 8:30 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to React",
-		"Host": "Danay Fernandez (Techtogether Miami)",
+		"Host": "Danay Fernandez (TechTogether Miami)",
 		"Description": "This workshop will cover the basics of how to create a React app. We will be building a simple React app to get you started with your project.",
 	},
 	{
@@ -217,7 +217,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "LGBTQ+ in Tech Panel",
 		"Host": "Panelists",
-		"Description": "In this workshop, you're going to learn how Deep Learning plays a vital role in the overall field of Artificial Intelligence, how neural networks work from a mathematical perspective, and how to build your own Convolutional Neural network.",
+		"Description": "",
 		
 	},
 	{
@@ -264,8 +264,8 @@ const day3 = [
 		"Time": "6:30 - 7:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Crushing College Admissions as a Prospective STEM Major",
-		"Host": "Vivian Wang (Standford University)",
-		"Description": "Want to quickly and easily create posters, instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the cCnva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task.",
+		"Host": "Vivian Wang (Stanford University)",
+		"Description": "",
 			
 	},
 	{
@@ -281,7 +281,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intersectionality with Tech & other fields",
 		"Host": "Hana Gabrielle Bidon (Wells Fargo)",
-		"Description": "Learn how you can combine your passion in tech with your other interests. Tech careers can range from UX design to digital accessibility work, and much more. tech? How can allies of the LGBTQ+ community lift our voices?",
+		"Description": "Learn how you can combine your passion in tech with your other interests. Tech careers can range from UX design to digital accessibility work, and much more tech? How can allies of the LGBTQ+ community lift our voices?",
 		
 	},
 	{
