@@ -25,7 +25,7 @@
     <!--stylesheets--> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -343,9 +343,33 @@
                     </div>
                   </div>
                 </div>
+
+                <div class="modal fade" id="modalCX" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"><a href="https://jobs.coxenterprises.com/career-areas/technology/">Cox Automotive</a></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Some of the most innovative software used across the automotive industry is built at Cox Automotive, and we’re looking for more bright minds and ingenious thinkers.  
+                        Our engineering teams create software that allows car dealers to move inventory, plan, pivot and adjust for demand while using data to drive their businesses. <br> <br>
+                        Our tech stack is as diverse as our product offerings; we leverage C#, Python, AWS (micro services), APIs, React, Angular, Okta, .Net and many others.
+                        There are a ton of reasons why our tech teams love working here - learn more about our openings online and through the Career Fair!
+                      </div>
+                      <div class="modal-footer">
+                        <a type="button" class="btn btn-primary" href="https://jobs.coxenterprises.com/career-areas/technology/">Visit the site</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
       
                 <div class="row national-sponsor">
-      
+
                   <div class="col-sm">
                     <div class="card card-10">
                       <div class="card-body">
@@ -368,39 +392,85 @@
                     </div>
                   </div>
                   <div class="col-sm">
-                    <div class="card card-13">
-                      <div class="card-body">
-                        <a href="#" data-toggle="modal" data-target="#modalBU"><center><img class="card-img-bu"  src="images/logos/bostonuni.png" class="card-img-bu" alt="Boston University logo"></center></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm">
-                    <div class="card card-14">
-                      <div class="card-body">
-                        <a href="#" data-toggle="modal" data-target="#modalSP"><center><img class="card-img-sp" src="images/logos/spark.png" style="height: 100%;" class="card-img-sp" alt="Spark logo"></center></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm">
                     <div class="card card-15">
                       <div class="card-body">
-                        <a href="#" data-toggle="modal" data-target="#modalRH"><center><img class="card-img-rb" src="images/logos/robinhood.png" class="card-img-rb" alt="robinhood logo"></center></a>
+                        <a href="#" data-toggle="modal" data-target="#modalRH"><center><img class="card-img-rb" src="images/logos/robinhood.png" alt="Robinhood logo"></center></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm hidden">
+                    <div class="card card-13">
+                      <div class="card-body">
+                        <a href="#" data-toggle="modal" data-target="#modalBU"><center><img class="card-img-bu" src="images/logos/bostonuni.png" alt="Boston University logo"></center></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm hidden">
+                    <div class="card card-14">
+                      <div class="card-body">
+                        <a href="#" data-toggle="modal" data-target="#modalSP"><center><img class="card-img-sp" src="images/logos/spark.png" style="height: 100%;" alt="Spark logo"></center></a>
                       </div>
                     </div>
                   </div>
       
                   </div>
+      
+                  <div class="row national-sponsor">
+      
+                    <div class="col-sm hidden">
+                      <div class="card card-10">
+                        <div class="card-body">
+                          <a href="#" data-toggle="modal" data-target="#modalMS"><center><img class="card-img-ms" src="images/logos/microsoft.png" alt="Microsoft logo"></center></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm hidden">
+                      <div class="card card-11">
+                        <div class="card-body">
+                          <a href="#" data-toggle="modal" data-target="#modalBS"><center><img class="card-img-bl" src="images/logos/balsamiq.png" alt="Balsamiq logo"></center></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm hidden">
+                      <div class="card card-12">
+                        <div class="card-body">
+                          <a href="#" data-toggle="modal" data-target="#modalCO"><center><img class="card-img-co" src="images/logos/capitalone.png" alt="Capital One logo"></center></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="card card-13">
+                        <div class="card-body">
+                          <a href="#" data-toggle="modal" data-target="#modalBU"><center><img class="card-img-bu"  src="images/logos/bostonuni.png" alt="Boston University logo"></center></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="card card-14">
+                        <div class="card-body">
+                          <a href="#" data-toggle="modal" data-target="#modalSP"><center><img class="card-img-sp" src="images/logos/spark.png" style="height: 100%;" alt="Spark logo"></center></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="card card-16">
+                        <div class="card-body">
+                          <a href="#" data-toggle="modal" data-target="#modalCX"><center><img class="card-img-cx" src="images/logos/cox-auto.png" alt="Cox Automotive logo"></center></a>
+                        </div>
+                      </div>
+                    </div>
+        
+                    </div>
                  
                   </div>
-                </div>
-              </div>
 
         <br><br>
 
-        <!-- Tracks Carousel -->
+<!-- Tracks Carousel -->
+
         <section style="margin-top:3%;" class="overflow-hidden py-5 space4" id="tracks">
           <div class="mx-0 px-0">
-              <h3 class="epilogue space white space5"><center>Tracks (Challenges)</center></h3>
+              <h3 class="epilogue space white space5"><center>Challenges</center></h3>
               <div class="row gx-4 gx-lg-5">
 
                 <div class="col-md-3 d-none d-md-block text-center p-0"></div>
@@ -416,56 +486,43 @@
                                           <h3 barlow3>Stereotype Smasher Hack</h3>
                                           <p class="carousel-text barlow2 white">We can all name stereotypes in the tech industry which have made us or
                                              others feel intimidated to participate. Create a hack that helps break the stereotypes  
-                                             in this industry and make it a more inclusive and welcoming place. </p> 
+                                             in this industry and make it a more inclusive place. </p> 
                                           <br>
-                                          <p><b>Prizes: TechTogether's exclusive “Diversity in Tech” Shirt and $50 Gift Card for each team member</b></p>
+                                          <p><b>Prizes: $50 Gift Card and “Diversity in Tech” Shirt</b></p>
                                       </div>
                                   </div>
                                   <div class="carousel-item">
                                       <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
                                           <img src="images/hacks/Mostmemeworthyhack.png" alt="Best Meme-Worthy Hack" class="carousel-img">
                                           <h3 barlow3>Best Meme-Worthy Hack </h3>
-                                          <p class="carousel-text barlow2 white">It’s totally okay to let loose once in a while. We want to recognize the hacker who created 
-                                            the most wacky hack. The more roundabout and out-right silly — the better. Have a good time and build a meme-worthy hack!</p>
+                                          <p class="carousel-text barlow2 white">It’s totally okay to let loose once in a while. 
+                                            We want to recognize the hacker with most wacky hack. The more roundabout and out-right silly, the better. 
+                                            Have a good time building a meme-worthy hack!</p>
                                           <br>
-                                          <p><b>Prizes: Team Treehouse Subscription (Online Coding/Tech-related Courses) per team member</b></p>
+                                          <p><b>Prizes: Monthly Team Treehouse Subscription</b></p>
                                       </div>
                                   </div>
-                                  <!--<div class="carousel-item">
-                                      <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
-                                          <img src="images/hacks/Inclusivehack.png" alt="Inclusive Hack" class="carousel-img">
-                                          <h3 barlow3>Inclusive Hack</h3>
-                                          <p class="carousel-text barlow2 white">Learning to Code should not be limited by gender, race, sexuality, or nationality.  
-                                            Build a solution that creates greater access to computer science for students around 
-                                            the globe, especially gender-marginalized people and those from marginalized communities.</p>
-                                          <br>
-                                          <p><b>Prizes: Raspberry Pi 4 & $15 Amazon gift card for each team member</b></p>
-                                      </div>
-                                  </div>-->
                                   <div class="carousel-item">
                                       <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
                                           <img src="images/hacks/Mostunconventionalhack.png" alt="Most Unconventional Hack" class="carousel-img">
                                           <h3 barlow3>Most Unconventional Hack</h3>
                                           <p class="carousel-text barlow2 white">You are not bound to society's expectations! Create a hack which challenges 
                                             the way we view the world or an “unconventional hack” 
-                                            that can use technology to help solve social problems in a way we have never seen before.</p>
+                                            that can use tech to help solve social problems in a new, unique way.</p>
                                           <br>
-                                          <p><b>Prizes: Kindle eBook device for each team member</b></p>
+                                          <p><b>Prizes: Kindle eBook device</b></p>
                                       </div>
                                   </div>
-                                  <!--<div class="carousel-item">
-                                      <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
-                                          <img src="images/hacks/Bestconnectivityhack.png" alt="Best Connectivity Hack" class="carousel-img">
-                                          <h3 barlow3>Best Connectivity Hack </h3>
-                                          <p class="carousel-text barlow2 white">The pandemic has affected many aspects of our lives and one of them
-                                             is our relationships with the people around us. Create a hack that helps improve  connectivity and communication 
-                                             between people whether it is our loved ones 
-                                            or our co-workers/peers.</p>
-                                          <br>
-                                          <p><b>Prizes: TechTogether Seattle “Goodie Bag Bundle” which includes a bluetooth speaker and stationaries </b></p>
-                                      </div>
-                                  </div>-->
-                              </div>
+                                  <div class="carousel-item">
+                                    <div class="col-md-12 h-100 w-75 m-auto px-4 d-flex flex-column justify-content-center align-items-center challenge-slide">
+                                        <img src="images/hacks/Inclusivehack.png" alt="Refer to Devpost" class="carousel-img">
+                                        <h3 barlow3>More Challenges</h3>
+                                        <p class="carousel-text barlow2 white">Besides our themed challenges, more of this year's challenges and their prizes can be found in our <a class="links2" href="https://techtogether-seattle-hackathon.devpost.com/">Devpost.</a> Challenges are not exclusive
+                                        to hackers only, as some awards are also given to attendees!</p>
+                                        <br>
+                                        <p><b>Prizes: Exclusive swag, $200 Amazon gift cards, and more</b></p>
+                                    </div>
+                                </div>
 
                               <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -488,7 +545,6 @@
               </div>
           </div>
       </section>
-
 <!--<div class="flex-container space6">
           <h3 class="epilogue white space4"><center>Local Sponsors</center></h3>
         </div>
@@ -806,12 +862,13 @@
 
         <!-- Footer -->
 
-        <footer id="contact" class="py-4 bg-dark flex-shrink-0">
+        <footer id="contact" class="py-4 bg-dark flex-shrink-0 space">
           <div class="container text-right bold items black made">
             <p class="epilogue white">reach out to us <i class="fas fa-heart animate__animated animate__heartBeat animate__infinite" alt="love"></i></p>
             <a href="https://www.linkedin.com/company/techtogether-seattle/"><i class="fab fa-linkedin white bigger"></i></a>
             <a href="https://instagram.com/techtogetherseattle"><i class="fab fa-instagram white bigger"></i></a>
             <a href="https://twitter.com/techtogethersea"><i class="fab fa-twitter white bigger"></i></a>
+            <a href="https://techtogether-seattle-hackathon.devpost.com"><i class="fab fa-dev white bigger"></i></a>
             <a href="mailto:info.seattle@techtogether.io"><i class="far fa-envelope-open white bigger"></i></a>
           </div>
         </footer>

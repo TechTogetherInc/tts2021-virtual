@@ -219,11 +219,21 @@ a:hover {
 
 /*buttons*/
 
-[type="button"], [type="reset"], [type="submit"], button {
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
   -webkit-appearance: none;
 }
 .buttona {
   background-color: #fc7361;
+  border: none;
+  padding: 1vh 2vw;
+  margin: 1% 0.5%;
+  border-radius: 4px;
+}
+.buttonb {
+  background-color: black;
   border: none;
   padding: 1vh 2vw;
   margin: 1% 0.5%;
@@ -240,15 +250,15 @@ a:hover {
     margin: auto;
     border-radius: 4px;
   }
-}
-
-.buttonb {
-  background-color: black;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  margin: 1% 0.5%;
-  border-radius: 4px;
+  .buttonb {
+    background-color: black;
+    max-width: 60%;
+    border: none;
+    padding: 1vh 2vw;
+    margin: 3% 0.5%;
+    margin: auto;
+    border-radius: 4px;
+  }
 }
 
 .buttonc {
