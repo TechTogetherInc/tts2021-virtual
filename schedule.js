@@ -11,7 +11,7 @@ const day1 = [
 		/*"Category": "Activity",*/
 		"Title": "Team Formation 1",
 		"Host": "TT Seattle Team",
-		"Description": "Meet like-minded people and form teams for the hackathon here!",
+		"Description": "Looking to form a team? Want help finding teammates? Join us for our first team formation event of the hackathon. How does it work? The TechTogether team will take notes and suggest teams based on the information presented in a round of introductions. Once you receive your team recommendation, TechTogether will put you in a break-out room with those folks. You’ll chat with them to see if it’s a good match. If it is, you break off and you’re all set! If it’s not, you rejoin the main room, and TechTogether resorts you into another team.",
 	},
 ]
 
@@ -79,21 +79,21 @@ const day2 = [
 		/*"Category": "Workshop",*/
 		"Title": "Discovering Your Personal and Professional Superpowers",
 		"Host": "Morgan Bell (Microsoft)",
-		"Description": "",
+		"Description": "Join Morgan Bell, a Program Manager at Microsoft, for a keynote about discovering and elevating your personal strengths!",
 	},
 	{
 		"Time": "10:30 - 11:00 PM",
 		/*"Category": "Activity",*/
 		"Title": "Speed Networking - We're Not Really Strangers 😳",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Want to get to know some other hackers in an easy low stress format? Join us for a round of speed networking. Don't forget - networking is your super power.",
 	},
 	{
 		"Time": "11:00 - 11:30 PM",
 		/*"Category": "Activity",*/
 		"Title": "Seattle Trivia 👀",
 		"Host": "TT Seattle Team",
-		"Description": "",
+		"Description": "Come test out your knowledge of the city and play to win a special prize.",
 	},
 ]
 
@@ -352,14 +352,6 @@ const day4 = [
 
 	},
 	{
-		"Time": "12:00 PM",
-		/*"Category": "Universal",*/
-		"Title": "Hackathon Ends",
-		"Host": "TT Seattle Team",
-		"Description": "Hacking deadline!",
-		
-	},
-	{
 		"Time": "12:30 - 1:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "Intro to Open Source",
@@ -373,6 +365,14 @@ const day4 = [
 		"Host": "Joshua Poddoku (Aviyel)",
 		"Description": "The world we live in is only possible because of forgotten and unleashing power of Opensource. There are code and non-code contributions to scale projects. This session will be focused for enthusiasts to learn and explore opportunities under this space.",
 
+	},
+	{
+		"Time": "3:00 PM",
+		/*"Category": "Universal",*/
+		"Title": "Hackathon Ends",
+		"Host": "TT Seattle Team",
+		"Description": "Hacking deadline!",
+		
 	},
 	{
 		"Time": "7:00 - 7:30 PM",
