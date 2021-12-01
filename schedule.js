@@ -129,7 +129,7 @@ const day3 = [
 		"Time": "9:00 - 9:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Exploring Different Roles in Tech",
-		"Host": "Panelists ()",
+		"Host": "Panelists",
 		"Description": "",
 
 	},
@@ -216,7 +216,7 @@ const day3 = [
 		"Time": "2:00 - 3:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "LGBTQ+ in Tech Panel",
-		"Host": "Panelists ()",
+		"Host": "Panelists",
 		"Description": "In this workshop, you're going to learn how Deep Learning plays a vital role in the overall field of Artificial Intelligence, how neural networks work from a mathematical perspective, and how to build your own Convolutional Neural network.",
 		
 	},
@@ -339,7 +339,7 @@ const day4 = [
 		"Time": "11:00 - 12:00 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Breaking into Product Management",
-		"Host": "Panelists ()",
+		"Host": "Panelists",
 		"Description": "",
 
 	},
