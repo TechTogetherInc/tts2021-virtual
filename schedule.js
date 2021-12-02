@@ -93,7 +93,7 @@ const day2 = [
 		/*"Category": "Activity",*/
 		"Title": "Seattle Trivia 👀",
 		"Host": "TT Seattle Team",
-		"Description": "Come test out your knowledge of the city and play to win a special prize.",
+		"Description": "Come test out your knowledge of the city!",
 	},
 ]
 
@@ -105,7 +105,6 @@ const day3 = [
 		"Title": "Intro to Python",
 		"Host": "Gabriella Miesner (TechTogether Chicago)",
 		"Description": "In this introductory workshop, hackers will learn fundamental programming concepts, such as variables, if statements, and loops using the Python syntax. Hackers will get to visualize a small amount of data using Plotly.",
-
 	},
 	{
 		
@@ -127,15 +126,15 @@ const day3 = [
 		"Time": "9:00 - 10:00 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Exploring Different Roles in Tech",
-		"Host": "Panelists",
-		"Description": "",
+		"Host": "Susannah St-Germain (SalesForce) and Rebecca Hadi (Stealth Mode)",
+		"Description": "Interested in other roles besides software engineering? Join us for a talk with a Salesforce Architect and a Director of Data Science to learn more their roles and how they interact with other roles in the company.",
 	},
 	{
 		"Time": "10:00 - 10:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Team Formation 3",
 		"Host": "TT Seattle",
-		"Description": "Looking to form a team? Want help finding teammates? Join us for our team formation event of the hackathon. How does it work? The TechTogether team will take notes and suggest teams based on the information presented in a round of introductions.Once you receive your team recommendation, TechTogether will put you in a break-out room with those folks. You’ll chat with them to see if it’s a good match. If it is, you break off and you’re all set! If it’s not, you rejoin the main room, and TechTogether resorts you into another team.",
+		"Description": "Looking to form a team? Want help finding teammates? Join us for our LAST team formation event of the hackathon. How does it work? The TechTogether team will take notes and suggest teams based on the information presented in a round of introductions.Once you receive your team recommendation, TechTogether will put you in a break-out room with those folks. You’ll chat with them to see if it’s a good match. If it is, you break off and you’re all set! If it’s not, you rejoin the main room, and TechTogether resorts you into another team.",
 	},
 	{
 		"Time": "10:30 - 11:00 AM",
@@ -163,8 +162,7 @@ const day3 = [
 		/*"Category": "Workshop",*/
 		"Title": "Intro to APIs",
 		"Host": "Maria Sitkovets (Shopify)",
-		"Description": "This workshop aims  to teach hackers all about how APIs work, how to build them, and how to test them.",
-		
+		"Description": "This workshop aims to teach hackers all about how APIs work, how to build them, and how to test them.",
 	},
 	{
 		"Time": "12:00 - 12:30 PM",
@@ -175,13 +173,6 @@ const day3 = [
 		
 	},
 	{
-		"Time": "12:30 - 1:00 PM",
-		/*"Category": "Workshop",*/
-		"Title": "Your Journey != Define Your Destination",
-		"Host": "TBA",
-		"Description": "",
-	},
-	{
 		"Time": "1:00 - 2:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "User Experience Design - from A to Z!",
@@ -189,27 +180,11 @@ const day3 = [
 		"Description": "Learn all about the basics of User Experience Design from Kala Campbell of Pega Systems.",
 	},
 	{
-		"Time": "1:30 - 3:00 PM",
-		/*"Category": "Universal",*/
-		"Title": "Microsoft Keynote Speaker",
-		"Host": "TBA",
-		"Description": "Meet our Sponsors and find direct opportunities to hear about their openings.",
-		
-	},
-	{
 		"Time": "2:00 - 3:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "LGBTQ+ in Tech Panel",
-		"Host": "Panelists",
-		"Description": "The LGBTQ+ in Tech Panel features Hana Gabrielle Bidon and Maggie Pena.",
-	},
-	{
-		"Time": "3:00 - 4:00 PM",
-		/*"Category": "Workshop",*/
-		"Title": "Microsoft Workshop",
-		"Host": "TBA",
-		"Description": "",
-		
+		"Host": "Hana Bidon (Wells Fargo) and Maggie Pena (HubSpot)",
+		"Description": "When we talk about diversifying companies, we need to consider not only racial diversity, but also diversity in gender and sexuality. This panel will discuss the experiences of queer individuals navigating the tech space, and provide a safe space to discuss how can allies of the LGBTQ+ community can lift their voices to make tech a more inclusive space.",
 	},
 	{
 		"Time": "4:00 - 5:00 PM",
@@ -217,7 +192,6 @@ const day3 = [
 		"Title": "Intro to Code + Art - Create your coded portrait",
 		"Host": "Kaylla Torres (Code/Art)",
 		"Description": "We are combining art and coding to challenge society’s view of what a coder looks like. Join us for an interactive workshop where you’ll learn to create your own digital self-portrait. No coding experience necessary! All participants are invited to submit their project to Code/Art’s CodeYourSelf™ competition after the workshop.",
-		
 	},
 	{
 		"Time": "5:00 - 5:30 PM",
@@ -225,23 +199,20 @@ const day3 = [
 		"Title": "irl: Introduction to Inclusive Design",
 		"Host": "Natasha A Sidik (TechTogether Seattle)",
 		"Description": "Inclusion can be this abstract ideal that some may find hard to reach at times. Learn basic inclusive design concepts and some ideas on how to incorporate a few best practices in your workflow!",
-		
 	},
 	{
 		"Time": "5:30 - 6:00 PM",
 		/*"Category": "Workshop",*/
 		"Title": "A Hitchhiker's Guide to Social Impact",
-		"Host": "Mingjie Jiang and Megan Cui (Execute Big)",
+		"Host": "Mingjie Jiang, Megan Cui (Execute Big)",
 		"Description": "This workshop will go over how we design our programs, and then we will have students design their own programs.",
-		
 	},
 	{
 		"Time": "6:00 - 6:30 PM",
 		/*"Category": "Workshop",*/
-		"Title": "Intro to designing with Canva",
+		"Title": "Intro to Designing with Canva",
 		"Host": "Belle See (Command Tech)",
-		"Description": "Want to quickly and easily create posters, instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the cCnva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task.",
-			
+		"Description": "Want to quickly and easily create posters, Instagram posts, presentations and everything under the umbrella of graphic design? Utilise the power of Canva to get started. We'll be covering how to use the Canva platform, utilising and modifying templates, general graphic design rules, Canva tips and tricks and wrap it all up with a mini design task.",
 	},
 	{
 		"Time": "6:30 - 7:00 PM",
@@ -254,7 +225,7 @@ const day3 = [
 	{
 		"Time": "7:00 - 8:00 PM",
 		/*"Category": "Workshop",*/
-		"Title": "Intro to designing websites",
+		"Title": "Intro to Designing Websites",
 		"Host": "Belle See (Command Tech)",
 		"Description": "Anyone, including you, can be a website designer! Within an hour, learn about visual hierarchy, layout, design styles, and rules of website design :)) The second half of the workshop is a hands-on portion where you'll be able to play the role of a website designer and put theory into practice!",
 		
@@ -297,16 +268,8 @@ const day4 = [
 		"Time": "9:30 - 10:00 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Empowering others by being a Student Ambassador",
-		"Host": "(Microsoft)",
+		"Host": "Microsoft Team",
 		"Description": "Do you want to have a direct impact on other student's lives? Are you a leader on your college campus? Do you want to be a part of a global community of other student developers? Then the Microsoft Learn Student Ambassador program may be right for you! Come hear about one Student Ambassador's experience and bring any questions that you may have!",
-	},
-	{
-		
-		"Time": "10:00 - 11:00 AM",
-		/*"Category": "Workshop",*/
-		"Title": "I did a [hackathon] thing! What now?",
-		"Host": "(Microsoft)",
-		"Description": "",
 	},
 	{
 		
@@ -315,15 +278,6 @@ const day4 = [
 		"Title": "Keynote Speaker Audrey Pe",
 		"Host": "Audrey Pe (WiTech)",
 		"Description": "Audrey Pe is a sophomore at Stanford University and the founder and executive director of WiTech (@witechorg) -- a nonprofit organisation based in the Philippines that aims to educate, inspire, and empower youth to break gender barriers and use tech to make a difference in society. Her work with WiTech has garnered her recognition as a 2020 Gen.T Leader of Tomorrow, 2019 Global Teen Leader, 2020 Pinterest Council of Courage member, 2019 Women in Tech Global Aspiring Teen Award Finalist, among others. Audrey is a two-time TEDx, ASEAN and UN speaker, she has delivered over 100+ talks and has also been featured in local and international publications like Forbes, Esquire, and Elite Daily.",
-
-	},
-	{
-		
-		"Time": "11:00 - 12:00 AM",
-		/*"Category": "Workshop",*/
-		"Title": "Breaking into Product Management",
-		"Host": "Panelists",
-		"Description": "Breaking into Product Management workshop hosted by Kendra Havens (PM, Microsoft) and Iris Guo (Former PM, Microsoft).",
 	},
 	{
 		"Time": "11:30 - 12:00 PM",
@@ -338,6 +292,14 @@ const day4 = [
 		"Title": "Intro to Open Source",
 		"Host": "Rizel Scarlett (Github)",
 		"Description": "I spent the last 3 years of my careers nervous to contribute to open source. The codebases seemed so large and the documentation was intimidating! Learn how I overcame that fear and how you can too! ",
+	},
+	{
+		
+		"Time": "1:00 - 2:00 PM",
+		/*"Category": "Workshop",*/
+		"Title": "Breaking into Product Management",
+		"Host": "Kendra Havens, Iris Guo (Microsoft)",
+		"Description": "Interested in the world of Product Management in tech? Join us to learn about ways to break into that space, what they do in their day-to-day life, and their experiences in industry.",
 	},
 	{
 		"Time": "1:30 - 2:00 PM",
