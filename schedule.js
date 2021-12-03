@@ -21,7 +21,7 @@ const day2 = [
 		/*"Category": "Universal",*/
 		"Title": "Career Fair",
 		"Host": "TT Seattle Team",
-		"Description": "Are you looking for a job or internship? Looking to expand your network and learn about exciting career pathways in tech? Join us for TechTogether Seatte's career fair and say hello to recruiters at Capital One and Robinhood! We will be using a special platform called Gather for our career fair, so if anything join us to make a cool avatar.",	
+		"Description": "Are you looking for a job or internship? Looking to expand your network and learn about exciting career pathways in tech? Join us for TechTogether Seatte's career fair and say hello to recruiters at Capital One and Robinhood! We will be using a special platform called Gather for our career fair, so if anything join us to make a cool avatar.",
 	},
 	{
 		"Time": "5:00 - 5:30 PM",
@@ -82,14 +82,14 @@ const day2 = [
 		"Description": "Join Morgan Bell, a Program Manager at Microsoft, for a keynote about discovering and elevating your personal strengths!",
 	},
 	{
-		"Time": "10:30 - 11:00 PM",
+		"Time": "10:00 - 11:00 PM",
 		/*"Category": "Activity",*/
 		"Title": "Speed Networking - We're Not Really Strangers 😳",
 		"Host": "TT Seattle Team",
 		"Description": "Want to get to know some other hackers in an easy low stress format? Join us for a round of speed networking. Don't forget - networking is your super power.",
 	},
 	{
-		"Time": "11:00 - 11:30 PM",
+		"Time": "11:00 - 12:00 PM",
 		/*"Category": "Activity",*/
 		"Title": "Seattle Trivia 👀",
 		"Host": "TT Seattle Team",
