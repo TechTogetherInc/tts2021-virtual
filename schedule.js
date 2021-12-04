@@ -256,7 +256,7 @@ const day3 = [
 const day4 = [
 	{
 		
-		"Time": "9:00 - 9:30 PM",
+		"Time": "9:00 - 9:30 AM",
 		/*"Category": "Workshop",*/
 		"Title": "Take your hack to the next level",
 		"Host": "Vaishnavi Dwivedi (Github)",
